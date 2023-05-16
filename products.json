@@ -1,0 +1,11 @@
+{
+
+    "products" : [
+        { "id" : 1 , "produto" : "Cenoura" , "unidades" : 100 , "preco" : 2 , "nome_cientifico" : "Daucus carota"},
+        { "id" : 2 , "produto" : "Maçã" , "unidades" : 60 , "preco" : 3 , "nome_cientifico" : "Malus domestica"},
+        { "id" : 3 , "produto" : "Batata" , "unidades" : 50 , "preco" : 2 , "nome_cientifico" : "Solanum tuberosum"} 
+    ]
+  
+  
+  
+}

@@ -1,0 +1,22 @@
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Produto</th>
+        <th scope="col">Unidades</th>
+        <th scope="col">Preço Unitário</th>
+        <th scope="col">Nome Científico</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        
+        <th scope="row">{{ product.id }}</th>
+        <td>{{ product.produto }}</td>
+        <td>{{ product.unidades }}</td>
+        <td>{{ product.preco }}</td>
+        <td>{{ product.nome_cientifico }}</td>
+      </tr>
+    </tbody>
+  </table>
